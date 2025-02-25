@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import './App.css'
-import Aishwarya from "./Aishwarya"
+import Aishwarya from "./Aishwarya.jsx"
+import Maliha from "./Maliha.jsx"
 
 function App() {
 
@@ -8,8 +9,10 @@ function App() {
     <>
       <Router>
         <Route path="/Aishwarya" element={<Aishwarya />} />
-        <Route path="/Arfaniya" element={<Arfaniya />} />
+        <Route path="/Maliha" element={<Maliha />} />
       </Router>
+      <a href="/Aishwarya">Aishwarya</a>
+      <a href="/Maliha">Maliha</a>
     </>
   )
 }
