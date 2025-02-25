@@ -1,6 +1,7 @@
 {
   "hosting": {
     "site": "birthdaywish-wish",
+
     "public": "public",
     "ignore": [
       "firebase.json",
@@ -10,8 +11,5 @@
     "frameworksBackend": {
       "region": "asia-east1"
     }
-  },
-  "storage": {
-    "rules": "storage.rules"
   }
 }
