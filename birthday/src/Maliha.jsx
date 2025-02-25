@@ -10,14 +10,11 @@ import img5 from "./assets/happy-birthday-food.gif"
 
 
 const messages = [
-  "Happy Birthday, TL! 🎉 Hope you have an amazing year ahead!",
-  "A leader like you deserves all the happiness in the world! 🌟",
-  "Happy Birthday to our fearless leader, the one and only Lioness of the email jungle! 🦁",
-  "Your ferocity in tackling Average Handling Time, your dedication to top-notch Quality, and your impressive ability to navigate the wilderness of Long PNs always leave us in awe.",
-  "You strike the perfect balance between fierce and fabulous, and we're incredibly lucky to have you guiding us through the inbox jungle.",
-  "Thank you for always being our brave protector, our guiding star, and our occasional life-saver (especially when we’re drowning in escalations). Your roar of encouragement echoes through our daily tasks, and we couldn’t ask for a more fantastic leader.🎁",
-  "May your special day be filled with roaring laughter, wild adventures, and a pride of people who appreciate you as much as we do!🥳",
-  "Happy Birthday, Lioness! 🎉🥳With roaring admiration By our Team",
+  "Happy Birthday, Maliha🎉 Hope you have an amazing year ahead!",
+  "Wishing you endless joy and success! Enjoy your day! 🎂",
+  "May your special day be filled with laughter and happiness! 🎁",
+  "A hardworking teammate like you deserves all the happiness in the world! 🌟",
+  "Cheers to another year of greatness! Have a fantastic birthday! 🥳",
 
 ];
 
@@ -39,7 +36,7 @@ const Aishwarya = () => {
   return (
     <div className="birthday-container">
       <h1>Happy Birthday</h1>
-      <h3>Dear Arfaniya</h3>
+      <h3>Dear Maliha</h3>
       <motion.img
         key={index}
         src={images[index % images.length]}

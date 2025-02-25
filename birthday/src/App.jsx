@@ -8,11 +8,13 @@ function App() {
   return (
     <>
       <Router>
-        <Route path="/Aishwarya" element={<Aishwarya />} />
-        <Route path="/Maliha" element={<Maliha />} />
+        <Routes>
+          <Route path="/Aishwarya" element={<Aishwarya />} />
+          <Route path="/Maliha" element={<Maliha />} />
+        </Routes>
       </Router>
-      <a href="/Aishwarya">Aishwarya</a>
-      <a href="/Maliha">Maliha</a>
+      Wish Link to : <a href="/Aishwarya">Aishwarya</a>
+      <hr />
     </>
   )
 }
